@@ -138,8 +138,8 @@ btn_select.addEventListener("click", (eoo) => {
             for (let index = 0; index < all_nom_elementV.length; index++) {
                 let element = all_nom_elementV[index];
                 let elem_select = `
-                            <div class="element" >
-                                <div class="contenu-element" >
+                            <div class="element " >
+                                <div class="contenu-element " >
                                     <p > ${element} </p>                        
                                 </div>
                             </div>
@@ -151,12 +151,6 @@ btn_select.addEventListener("click", (eoo) => {
         default:
             break;
     }
-
-
-
-
 });
-
-
 // ------------------------------ end select --------------------------
 
