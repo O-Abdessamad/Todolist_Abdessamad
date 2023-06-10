@@ -50,6 +50,9 @@ form{
     margin-top: 40px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
 }
 .main{
     background-color: rgba(165, 127, 255, 0.473);
@@ -67,11 +70,14 @@ form{
     justify-content: space-around;
     font-size: 24px;
     padding: 10px;
-    margin: 10px;
+    margin: 5px 10px;
     background-color: purple;
     color: white;
     width: 100%;
     border-radius: 20px;
+}
+.paragraphe{
+    width: 30vw;
 }
 .icone{
     width: 20vw;
@@ -89,4 +95,19 @@ form{
 .suprimer{
     color: rgb(255, 47, 47);
     cursor: pointer;
+}
+.greeen{
+    background-color:  rgb(85, 255, 47);
+
+}
+/* ***************************************************************** */
+.hestorique{
+    padding: 10px;
+}
+.hestorique-header{
+    background-color: gold;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
 }
