@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: center;
+
+}
+.contenu-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(165, 127, 255, 0.473);
+    flex-direction: column;
+    gap: 20px;
+    width: 70vw;
+    border-radius: 20px;
+    padding: 20px;
+}
+.h1-header{
+    color: purple;
+}
+
+form{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+.input-text{
+    padding: 10px;
+    border: none;
+    outline: 3px solid purple;
+    border-radius: 20px;
+    width: 60%;
+}
+.btn-form{
+    padding: 10px;
+    border: 3px solid purple;
+    background-color: purple;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 5px;
+    width: 30%;
+}
+/* ********************************** */
+.contiener{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    background-color: rgba(165, 127, 255, 0.473);
+    border-radius: 10px;
+    width:70vw ;
+}
+.element{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenu-element{
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    padding: 10px;
+    margin: 10px;
+    background-color: purple;
+    color: white;
+    width: 100%;
+    border-radius: 20px;
+}
+.icone{
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+}
+.valider{
+    color: greenyellow;
+    cursor: pointer;
+}
+.modifier{
+    color: rgb(118, 191, 247);
+    cursor: pointer;
+}
+.suprimer{
+    color: rgb(255, 47, 47);
+    cursor: pointer;
+}
