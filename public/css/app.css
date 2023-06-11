@@ -81,7 +81,7 @@ form{
     width: 30vw;
 }
 .icone{
-    width: 20vw;
+    width: 30vw;
     display: flex;
     justify-content: space-between;
 }
@@ -116,3 +116,60 @@ form{
 .show{
     display: block;
 }
+/* ************************ todo list 2***************************** */
+.div_select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.do_select{
+    border-radius: 10px;
+    background-color: rgba(165, 127, 255, 0.473);
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+
+}
+.btn-do_select{
+    border-radius: 5px;
+    background-color: rgba(165, 127, 255, 0.473);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: white;
+}
+.etat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 20vw;
+    background-color: rgba(165, 127, 255, 0.473);
+    border-radius: 20px;
+    padding: 10px;
+}
+.box_header{
+    background-color: aliceblue;
+    padding: 20px 40px;
+    border-radius: 20px;
+    color: purple;
+}
+.box_main{
+    background-color: aliceblue;
+    width: 80%;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+
+/* ************************ end todo list 2***************************** */
