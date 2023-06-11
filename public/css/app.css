@@ -1,15 +1,17 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
 }
-.header{
+
+.header {
     margin-top: 10px;
     display: flex;
     justify-content: center;
 
 }
-.contenu-header{
+
+.contenu-header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,23 +22,26 @@
     border-radius: 20px;
     padding: 20px;
 }
-.h1-header{
+
+.h1-header {
     color: purple;
 }
 
-form{
+form {
     padding: 10px;
     width: 100%;
     text-align: center;
 }
-.input-text{
+
+.input-text {
     padding: 10px;
     border: none;
     outline: 3px solid purple;
     border-radius: 20px;
     width: 60%;
 }
-.btn-form{
+
+.btn-form {
     padding: 10px;
     border: 3px solid purple;
     background-color: purple;
@@ -46,8 +51,9 @@ form{
     margin-left: 5px;
     width: 30%;
 }
+
 /* ********************************** */
-.contiener{
+.contiener {
     margin-top: 40px;
     display: flex;
     justify-content: center;
@@ -55,20 +61,23 @@ form{
     flex-direction: column;
     gap: 20px;
 }
-.main{
+
+.main {
     background-color: rgba(165, 127, 255, 0.473);
     border-radius: 10px;
-    width:70vw ;
+    width: 70vw;
 }
-.element{
+
+.element {
     margin-top: 10px;
     display: flex;
     justify-content: center;
 }
 
-.contenu-element{
+.contenu-element {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     font-size: 24px;
     padding: 10px;
     margin: 5px 10px;
@@ -77,36 +86,46 @@ form{
     width: 100%;
     border-radius: 20px;
 }
-.paragraphe{
+
+.paragraphe {
     width: 30vw;
 }
-.icone{
+
+.icone {
     width: 30vw;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
 }
-.valider{
+
+.valider {
     color: greenyellow;
     cursor: pointer;
 }
-.modifier{
+
+.modifier {
     color: rgb(118, 191, 247);
     cursor: pointer;
 }
-.suprimer{
+
+.suprimer {
     color: rgb(255, 47, 47);
     cursor: pointer;
 }
-.greeen{
-    background-color:  rgb(85, 255, 47);
+
+.greeen {
+    background-color: rgb(85, 255, 47);
 
 }
+
 /* ***************************************************************** */
-.hestorique{
+.hestorique {
     padding: 10px;
     display: none;
 }
-.hestorique-header{
+
+.hestorique-header {
     background-color: gold;
     padding: 5px;
     display: flex;
@@ -114,20 +133,23 @@ form{
     gap: 5px;
 }
 
-.shoxbox{
+.shoxbox {
     display: none;
 }
-.show{
+
+.show {
     display: block;
 }
+
 /* ************************ todo list 2***************************** */
-.div_select{
+.div_select {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 4px;
 }
-.do_select{
+
+.do_select {
     border-radius: 10px;
     background-color: rgba(165, 127, 255, 0.473);
     border: none;
@@ -137,7 +159,8 @@ form{
     outline: none;
 
 }
-.btn-do_select{
+
+.btn-do_select {
     border-radius: 5px;
     background-color: rgba(165, 127, 255, 0.473);
     border: none;
@@ -145,23 +168,27 @@ form{
     cursor: pointer;
     color: white;
 }
-.etat{
+
+.etat {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     gap: 15px;
+    width: 90vw;
 }
-.box{
+
+.box {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    width: 20vw;
+    width: 30vw;
     background-color: rgba(165, 127, 255, 0.473);
     border-radius: 20px;
     padding: 10px;
 }
-.box_header{
+
+.box_header {
     background-color: aliceblue;
     padding: 20px 40px;
     border-radius: 20px;
@@ -169,24 +196,62 @@ form{
     text-align: center;
     margin: 10px;
 }
-.box_main{
+
+.box_main {
     background-color: aliceblue;
     width: 80%;
     padding: 10px 20px;
     border-radius: 10px;
 }
-.todoV{
+
+.todoV {
     background-color: rgba(128, 0, 128, 0.631);
 
 }
-.doneV{
+
+.doneV {
     background-color: rgba(5, 99, 214, 0.8);
 
 }
-.dowingV{
+
+.dowingV {
     background-color: rgba(128, 0, 128, 0.804);
 
 }
 
 
 /* ************************ end todo list 2***************************** */
+
+
+
+
+
+
+@media (max-width: 426px) {
+    .box {
+        width: 38vw;
+
+    }
+    .box_main{
+        font-size: 1px;
+    }
+
+    .main {
+        width: 90vw;
+
+    }
+
+    .contenu-element {
+        font-size: 16px;
+
+    }
+    .paragraphe{
+        width: 20vw;
+    }
+
+    .icone {
+        font-size: 18px;
+        width: 40vw;
+
+    }
+}

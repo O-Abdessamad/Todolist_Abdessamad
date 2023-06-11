@@ -121,19 +121,7 @@ btn_form.addEventListener("click", (e) => {
             console.log(selctV);
             console.log(classElement);
             switch (selctV) {
-                case "Todo":
-                    if (!classElement.className.includes("todo")) {
-                        classElement.classList.remove("doing");
-                        classElement.classList.remove("done");
-                        classElement.classList.add("todo");
-                        let nom_element = classElement.firstElementChild.firstElementChild.textContent;
-                        let index_sup_doing = tab_doing.indexOf(nom_element);
-                        let index_sup_done = tab_done.indexOf(nom_element);
-                        tab_doing.splice(index_sup_doing, 1);
-                        tab_done.slice(index_sup_done, 1);
-                        tab_todo.push(nom_element);
-                    }
-                    break;
+                
                 case "Doing":
                     if (!classElement.className.includes("doing")) {
                         classElement.classList.add("doing");
@@ -171,23 +159,6 @@ btn_form.addEventListener("click", (e) => {
 
             // --------------------------- creation de box ---------------
             switch (selctV) {
-                case "Todo":
-
-
-                    for (let index = 0; index < tab_todo.length; index++) {
-                        let element = tab_todo[index];
-
-                        let box_contenu=`
-                        <div class="element" >
-                            <div class="contenu-element">
-                                <p class="paragraphe" > ${element} </p>                                
-                            </div>                        
-                        </div>                    
-                        `;
-                        box_todo.innerHTML += box_contenu;                        
-                    }
-                    
-                    break;
                 case "Doing":
 
                 box_doing.innerHTML = "";
