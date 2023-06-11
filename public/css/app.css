@@ -113,6 +113,10 @@ form{
     justify-content: center;
     gap: 5px;
 }
+
+.shoxbox{
+    display: none;
+}
 .show{
     display: block;
 }
@@ -144,7 +148,7 @@ form{
 .etat{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 15px;
 }
 .box{
@@ -162,12 +166,25 @@ form{
     padding: 20px 40px;
     border-radius: 20px;
     color: purple;
+    text-align: center;
+    margin: 10px;
 }
 .box_main{
     background-color: aliceblue;
     width: 80%;
     padding: 10px 20px;
     border-radius: 10px;
+}
+.todoV{
+    background-color: rgba(128, 0, 128, 0.631);
+
+}
+.doneV{
+    background-color: rgba(5, 99, 214, 0.8);
+
+}
+.dowingV{
+    background-color: rgba(128, 0, 128, 0.804);
 
 }
 
